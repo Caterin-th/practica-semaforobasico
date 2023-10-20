@@ -1,0 +1,78 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Cinzel+Decorative&family=Press+Start+2P&family=Titan+One&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Press+Start+2P&family=Titan+One&display=swap');
+
+body{
+  font-family: 'Cinzel Decorative', cursive;
+  background-color: #8dc7f7;
+  
+}
+
+h1{
+    text-align: center;
+    color: #0a0409;
+}
+
+.contenedor{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(197, 200, 226);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 1px;
+    margin: 0 auto;
+    
+}
+
+#caja{
+    height: 350px;
+    width: 200px;
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    justify-content: center;
+        
+}
+
+#circulo-rojo{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 0 auto;
+    border-radius: 50%;
+    will-change: filter;
+    transition: filter 300ms;
+    
+}
+#circulo-amarillo{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin: 0 auto;
+    border-radius: 50%;
+    will-change: filter;
+    transition: filter 300ms;
+}
+#circulo-verde{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(10, 255, 10);
+    margin: 0 auto;
+    border-radius: 50%;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.encendido{
+    border: 1px white solid;
+    filter: drop-shadow(0 0 2em #ffffffaa);
+    
+    
+}
+
+.apagado{
+    background-color: #9994948f !important;
+}
